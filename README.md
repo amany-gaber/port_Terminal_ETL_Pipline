@@ -317,9 +317,3 @@ Connect to PostgreSQL and build visualizations.
 * Scalable architecture
 * Fault-tolerant streaming
 * Enterprise-ready design
-
----
-
-# License
-
-MIT License
