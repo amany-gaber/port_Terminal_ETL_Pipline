@@ -1,0 +1,11 @@
+cd ~/ports-etl
+
+# تشغيل كل حاجة
+docker compose up -d
+
+# أو تشغيل ETL لوحده (أول مرة)
+docker compose up -d postgres
+docker compose up etl
+
+# تشغيل الـ streaming
+docker compose up -d kafka producer consumer
