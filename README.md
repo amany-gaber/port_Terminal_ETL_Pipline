@@ -268,31 +268,31 @@ PostgreSQL → Power BI
 
 # How to Run Full System
 
-## Step 1 — Start Docker
+## Step 1: Start Docker
 
 ```
 docker-compose up -d
 ```
 
-## Step 2 — Run Batch ETL
+## Step 2: Run Batch ETL
 
 ```
 python etl/batch_etl.py
 ```
 
-## Step 3 — Start Streaming Producer
+## Step 3: Start Streaming Producer
 
 ```
 python streaming/producer.py
 ```
 
-## Step 4 — Start Streaming Consumer
+## Step 4: Start Streaming Consumer
 
 ```
 python streaming/consumer.py
 ```
 
-## Step 5 — Open Power BI Dashboard
+## Step 5: Open Power BI Dashboard
 
 Connect to PostgreSQL and build visualizations.
 
@@ -317,13 +317,6 @@ Connect to PostgreSQL and build visualizations.
 * Scalable architecture
 * Fault-tolerant streaming
 * Enterprise-ready design
-
----
-
-# Author
-
-Port KPI Data Platform
-Data Engineering Project
 
 ---
 
