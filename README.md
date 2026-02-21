@@ -6,7 +6,7 @@ A professional, enterprise-grade data platform for ingesting, transforming, stor
 ---
 ## Data Pipeline Architecture
 
-![port_Terminal_ETL_Pipline](port_pipeline_architecture.webp)
+![port_Terminal_ETL_Pipline](port_pipeline_architecture.png)
 
 # Architecture Overview
 
