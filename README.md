@@ -12,7 +12,7 @@ A professional, enterprise-grade data platform for ingesting, transforming, stor
 ---
 
 # Dashboard Overview
-
+Dashboard Link: https://app.powerbi.com/view?r=eyJrIjoiMGY5M2FhNWMtZjYxZi00MDhlLWE4NjAtZjJlZmQxODc2YzNjIiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9
 ![Dashboard Overview](Dashboard_Overview.png)
 
 ---
