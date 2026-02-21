@@ -19,7 +19,7 @@ A professional, enterprise-grade data platform for ingesting, transforming, stor
 
 # Data Modeling (Star Schema)
 
-![Data Modeling](Data_modelling.png)
+![Data Modeling](Data_modelling..png)
 
 ---
 
