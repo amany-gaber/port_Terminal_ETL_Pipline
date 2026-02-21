@@ -4,6 +4,9 @@
 A professional, enterprise-grade data platform for ingesting, transforming, storing, and analyzing Port KPI data using both **Batch ETL** and **Real-Time Streaming pipelines**. This platform is designed following modern **Data Engineering best practices**, including **Star Schema modeling**, **containerized services**, and **interactive dashboards**.
 
 ---
+## Data Pipeline Architecture
+
+![Port Data Pipeline Architecture](port_pipeline_architecture.webp)
 
 # Architecture Overview
 
