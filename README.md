@@ -4,52 +4,53 @@
 A professional, enterprise-grade data platform for ingesting, transforming, storing, and analyzing Port KPI data using both **Batch ETL** and **Real-Time Streaming pipelines**. This platform is designed following modern **Data Engineering best practices**, including **Star Schema modeling**, **containerized services**, and **interactive dashboards**.
 
 ---
-## Data Pipeline Architecture
 
-![port_Terminal_ETL_Pipline](port_pipeline_architecture.png)
+# Data Pipeline Architecture
+
+![Data Pipeline Architecture](port_pipeline_architecture.png)
+
+---
+
+# Dashboard Overview
+
+![Dashboard Overview](Dashboard_Overview.png)
+
+---
+
+# Data Modeling (Star Schema)
+
+![Data Modeling](Data_modelling.png)
+
+---
 
 # Architecture Overview
 
 This system integrates two parallel pipelines:
 
-* **Batch ETL Pipeline** → Processes historical Excel data using PySpark
-* **Streaming Pipeline** → Processes real-time events using Kafka
-* **Central Data Warehouse** → PostgreSQL with Star Schema
-* **Analytics Layer** → Power BI dashboards
-* **Containerized Environment** → Docker Compose
-
----
-
-# Architecture Diagram
-
-> Save the generated architecture diagram as:
-
-```
-docs/architecture.png
-```
-
-Then reference it here:
-
-![Architecture Diagram](docs/architecture.png)
+* **Batch ETL Pipeline** → Processes historical Excel data using PySpark  
+* **Streaming Pipeline** → Processes real-time events using Kafka  
+* **Central Data Warehouse** → PostgreSQL with Star Schema  
+* **Analytics Layer** → Power BI dashboards  
+* **Containerized Environment** → Docker Compose  
 
 ---
 
 # Key Features
 
-* Batch ETL using PySpark
-* Real-time streaming using Apache Kafka
-* PostgreSQL Star Schema Data Warehouse
-* Dockerized infrastructure
-* Power BI analytics dashboards
-* Scalable and production-ready architecture
-* Clean separation between batch and streaming pipelines
+* Batch ETL using PySpark  
+* Real-time streaming using Apache Kafka  
+* PostgreSQL Star Schema Data Warehouse  
+* Dockerized infrastructure  
+* Power BI analytics dashboards  
+* Scalable and production-ready architecture  
+* Clean separation between batch and streaming pipelines  
 
 ---
 
 # Technology Stack
 
 | Layer            | Technology             |
-| ---------------- | ---------------------- |
+|------------------|------------------------|
 | Data Source      | Excel (.xlsx)          |
 | Batch Processing | PySpark, Python        |
 | Streaming        | Apache Kafka, Python   |
